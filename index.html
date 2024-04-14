@@ -5,11 +5,29 @@
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
     <style>
         body {
-            background: circular-gradient(0deg, #fff, #000);
+            background: linear-gradient(45deg, #000232, #000090);
+            background-size: 100vw 100vh;
+            color: white;
+            text-align: center;
+        }
+        h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -100%);
+            font-size: 100px;
+            animation: colorchange infinite 4s;
+        }
+        @keyframes colorchange {
+            0% {color: #EC1818;}
+            25% {color: #20F0F8;}
+            50% {color: #E3C518;}
+            75% {color: #20D5B7;}
+            100% {color: #EC1818;}
         }
     </style>
 </head>
 <body>
-
+<h1>Hello there!</h1>
 </body>
 </html>
